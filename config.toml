@@ -1,4 +1,4 @@
-baseurl = "https://amentalmodel.firebaseapp.com/"
+baseurl = "https://amentalmodel.com/"
 languageCode = "en-us"
 title = "A Mental Model"
 theme = "hugo-natrium-theme"

@@ -3,29 +3,29 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://amentalmodel.firebaseapp.com/draft-a-mental-model/</loc>
+    <loc>https://amentalmodel.com/draft-a-mental-model/</loc>
     <lastmod>2018-06-21T20:57:56-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://amentalmodel.firebaseapp.com/</loc>
-    <lastmod>2018-06-21T20:57:56-07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://amentalmodel.firebaseapp.com/categories/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://amentalmodel.firebaseapp.com/post/</loc>
+    <loc>https://amentalmodel.com/</loc>
     <lastmod>2018-06-21T20:57:56-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://amentalmodel.firebaseapp.com/tags/</loc>
+    <loc>https://amentalmodel.com/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://amentalmodel.com/post/</loc>
+    <lastmod>2018-06-21T20:57:56-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://amentalmodel.com/tags/</loc>
     <priority>0</priority>
   </url>
   

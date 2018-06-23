@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on A Mental Model</title>
-    <link>https://amentalmodel.firebaseapp.com/post/</link>
+    <link>https://amentalmodel.com/post/</link>
     <description>Recent content in Posts on A Mental Model</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 21 Jun 2018 20:57:56 -0700</lastBuildDate>
     
-	<atom:link href="https://amentalmodel.firebaseapp.com/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://amentalmodel.com/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>[DRAFT] A Mental Model</title>
-      <link>https://amentalmodel.firebaseapp.com/draft-a-mental-model/</link>
+      <link>https://amentalmodel.com/draft-a-mental-model/</link>
       <pubDate>Thu, 21 Jun 2018 20:57:56 -0700</pubDate>
       
-      <guid>https://amentalmodel.firebaseapp.com/draft-a-mental-model/</guid>
+      <guid>https://amentalmodel.com/draft-a-mental-model/</guid>
       <description>Preface &amp;ldquo;What should I do?&amp;rdquo; It&amp;rsquo;s a question I ask myself a lot. It&amp;rsquo;s a stressful question, because if I find myself asking it, it means I must decide a course of action and I don&amp;rsquo;t want to regret picking the wrong one. As a kid, the answers were easy: ask mom, dad, or someone smart…they always knew what to do. As an adult, the answers are less clear, and typically, there&amp;rsquo;s no one to ask.</description>
     </item>
     

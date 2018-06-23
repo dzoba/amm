@@ -106,9 +106,11 @@ Humans are not completely free. We have requirements, like socialization. We als
 In coming up with this idea I've discussed it with a lot of people and the majority give me blank faces, or "hmm that's interesting"s. The lack of enthusiasm or interest really makes me doubt myself. So I begin to wonder: what if the purpose of life really isn't to discover the purpose of life? 
 
 Well, if I'm wrong and we know what the purpose is, then, we win!
+
 If I'm wrong and we don't know what it is, then, the most important thing to do is to discover what it is. And thus, the purpose of life is to discover the purpose of life, and I am reassured.
 
 # Depression
-
+More content coming here
 
 # Approaches By Other Ideologies, and their limitations
+More content coming here
