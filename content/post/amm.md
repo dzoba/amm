@@ -1,5 +1,5 @@
 ---
-title: "[DRAFT] A Mental Model"
+title: "A Mental Model"
 date: 2018-06-21T20:57:56-07:00
 draft: false
 ---

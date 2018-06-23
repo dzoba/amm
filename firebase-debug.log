@@ -1,0 +1,37 @@
+[debug] [2018-06-23T17:16:27.700Z] ----------------------------------------------------------------------
+[debug] [2018-06-23T17:16:27.702Z] Command:       /Users/christopherdzoba/.nvm/versions/node/v6.11.5/bin/node /Users/christopherdzoba/.nvm/versions/node/v6.11.5/bin/firebase deploy
+[debug] [2018-06-23T17:16:27.702Z] CLI Version:   3.18.4
+[debug] [2018-06-23T17:16:27.703Z] Platform:      darwin
+[debug] [2018-06-23T17:16:27.703Z] Node Version:  v6.11.5
+[debug] [2018-06-23T17:16:27.703Z] Time:          Sat Jun 23 2018 10:16:27 GMT-0700 (PDT)
+[debug] [2018-06-23T17:16:27.703Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-06-23T17:16:27.715Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-06-23T17:16:27.715Z] > authorizing via signed-in user
+[debug] [2018-06-23T17:16:27.717Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/amentalmodel  
+  
+ Sat Jun 23 2018 10:16:27 GMT-0700 (PDT)
+[debug] [2018-06-23T17:16:28.265Z] <<< HTTP RESPONSE 200
+[debug] [2018-06-23T17:16:28.266Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/amentalmodel/tokens  
+  
+ Sat Jun 23 2018 10:16:28 GMT-0700 (PDT)
+[debug] [2018-06-23T17:16:28.867Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'amentalmodel'...
+[info] 
+[info] i  deploying database, hosting
+[info] i  database: checking rules syntax...
+[debug] [2018-06-23T17:16:29.271Z] >>> HTTP REQUEST PUT https://amentalmodel.firebaseio.com/.settings/rules.json?dryRun=true  
+ {
+  "rules": {
+    ".read": "auth != null",
+    ".write": "auth != null"
+  }
+} 
+ Sat Jun 23 2018 10:16:29 GMT-0700 (PDT)
+[debug] [2018-06-23T17:16:29.648Z] <<< HTTP RESPONSE 200
+[info] ✔  database: rules syntax for database amentalmodel is valid
+[info] i  hosting: preparing public directory for upload...
+[debug] [2018-06-23T17:16:29.847Z] >>> HTTP REQUEST PUT https://deploy.firebase.com/v1/hosting/amentalmodel/uploads/-LFhdPmlYEuovfl3S4dN?fileCount=29&message=  
+  
+ Sat Jun 23 2018 10:16:29 GMT-0700 (PDT)
