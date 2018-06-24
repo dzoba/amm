@@ -113,4 +113,8 @@ If I'm wrong and we don't know what it is, then, the most important thing to do 
 More content coming here
 
 # Approaches By Other Ideologies, and their limitations
+## Religions
+More content coming here
+
+## Political Ideologies
 More content coming here
