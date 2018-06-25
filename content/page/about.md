@@ -3,7 +3,7 @@ title = "About"
 date = "2018-02-09"
 +++
 
-Hi, my name is Chris.  I developed this idea in an effort to 'know thyself'.  Its the only explanation and justification I have for what to do next.
+Hi, my name is Chris.  I developed this idea in an effort to 'know thyself'.  It's the only explanation and justification I have for what to do next.
 
 As you can tell, things are in an early draft state here.  There is considerable more writing to do.  Feedback from folks like yourself helps me decide which parts to write next.
 
