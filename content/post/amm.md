@@ -31,7 +31,7 @@ The most common approach to modeling time is to slice it up into chunks, and nam
 
 If we think about a visualization of this model, we can visualize it as one activity which follows another:
 
-<IMAGE HERE SHOWING TIMELINE>
+*image of timeline coming here*
 
 
 <Mom was confused by "the right thing to do". To her she interpreted it as "the right thing to do as judged by her friends", eg would her friends think she had done the right thing. She did not understand that I mean "right thing to do" in a universal, laws of physics, 1+1=2, now and forever sort of way. I should clear this up>
