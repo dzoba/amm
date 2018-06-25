@@ -8,6 +8,7 @@ paginate = 10
 pygmentsCodefences = true
 pygmentsStyle = "native"
 disqusShortname = "amentalmodel"
+googleAnalytics = "UA-121299513-1"
 
 [taxonomies]
     category = "categories"
@@ -23,9 +24,9 @@ disqusShortname = "amentalmodel"
     weight = -110
 
 [params]
-    description = ""
+    description = "A framework for thinking about the world"
 
-    [params.logo]
+[params.logo]
     url = "logo.png"
     width = 50
     height = 50
