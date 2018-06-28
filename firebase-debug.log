@@ -1,0 +1,26 @@
+[debug] [2018-06-28T16:12:29.837Z] ----------------------------------------------------------------------
+[debug] [2018-06-28T16:12:29.840Z] Command:       /Users/christopherdzoba/.nvm/versions/node/v6.11.5/bin/node /Users/christopherdzoba/.nvm/versions/node/v6.11.5/bin/firebase deploy
+[debug] [2018-06-28T16:12:29.840Z] CLI Version:   3.18.4
+[debug] [2018-06-28T16:12:29.840Z] Platform:      darwin
+[debug] [2018-06-28T16:12:29.840Z] Node Version:  v6.11.5
+[debug] [2018-06-28T16:12:29.841Z] Time:          Thu Jun 28 2018 09:12:29 GMT-0700 (PDT)
+[debug] [2018-06-28T16:12:29.841Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-06-28T16:12:29.861Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-06-28T16:12:29.862Z] > authorizing via signed-in user
+[debug] [2018-06-28T16:12:29.864Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-06-28T16:12:29.864Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/YJi5GArLCcWU9FnAaIOUaQPbvgcsQhYUqARfUfDCiFM',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Thu Jun 28 2018 09:12:29 GMT-0700 (PDT)
+[debug] [2018-06-28T16:12:30.065Z] <<< HTTP RESPONSE 200
+[debug] [2018-06-28T16:12:30.080Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/amentalmodel  
+  
+ Thu Jun 28 2018 09:12:30 GMT-0700 (PDT)
+[debug] [2018-06-28T16:12:30.564Z] <<< HTTP RESPONSE 200
+[debug] [2018-06-28T16:12:30.565Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/amentalmodel/tokens  
+  
+ Thu Jun 28 2018 09:12:30 GMT-0700 (PDT)

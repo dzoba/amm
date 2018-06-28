@@ -25,7 +25,7 @@ One, is your mental model of someone else. You must model their mind and predict
 Another is the mental model of mental models. As children, we typically do not reflect on our thought patterns. The preceding writing about mental models explains how they work, and if you've never considered them before, you now have a mental model of mental models.
 
 ## Modeling Time
-Our brains are very good at modeling physical space. They are less good at modeling time. When it comes to resource limitations, we have more than enough space for the foreseeable future… however, we never seem to have enough time. Therefore, its worthwhile to put additional effort where our natural skills fall short, and model time intentionally.
+Our brains are very good at modeling physical space. They are less good at modeling time. When it comes to resource limitations, we have more than enough space for the foreseeable future… however, we never seem to have enough time. Therefore, it's worthwhile to put additional effort where our natural skills fall short, and model time intentionally.
 
 The most common approach to modeling time is to slice it up into chunks, and name those chunks. "Monday", "April", those are all chunks we have named. We also have unnamed chunks, or, chunks that we would name by the activity done during those chunks. For example "nap time", "eating dinner", or "commuting" are slices of time that don't have formal names.
 
@@ -33,6 +33,8 @@ If we think about a visualization of this model, we can visualize it as one acti
 
 *image of timeline coming here*
 
+# Beliefs and Evidence
+ _More content coming here_
 
 <Mom was confused by "the right thing to do". To her she interpreted it as "the right thing to do as judged by her friends", eg would her friends think she had done the right thing. She did not understand that I mean "right thing to do" in a universal, laws of physics, 1+1=2, now and forever sort of way. I should clear this up>
 
@@ -110,11 +112,11 @@ Well, if I'm wrong and we know what the purpose is, then, we win!
 If I'm wrong and we don't know what it is, then, the most important thing to do is to discover what it is. And thus, the purpose of life is to discover the purpose of life, and I am reassured.
 
 # Depression
-More content coming here
+_More content coming here_
 
 # Approaches By Other Ideologies, and their limitations
 ## Religions
-More content coming here
+_More content coming here_
 
 ## Political Ideologies
-More content coming here
+_More content coming here_
