@@ -24,3 +24,23 @@
 [debug] [2018-06-28T16:12:30.565Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/amentalmodel/tokens  
   
  Thu Jun 28 2018 09:12:30 GMT-0700 (PDT)
+[debug] [2018-06-28T16:12:35.120Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'amentalmodel'...
+[info] 
+[info] i  deploying database, hosting
+[info] i  database: checking rules syntax...
+[debug] [2018-06-28T16:12:35.519Z] >>> HTTP REQUEST PUT https://amentalmodel.firebaseio.com/.settings/rules.json?dryRun=true  
+ {
+  "rules": {
+    ".read": "auth != null",
+    ".write": "auth != null"
+  }
+} 
+ Thu Jun 28 2018 09:12:35 GMT-0700 (PDT)
+[debug] [2018-06-28T16:12:35.882Z] <<< HTTP RESPONSE 200
+[info] ✔  database: rules syntax for database amentalmodel is valid
+[info] i  hosting: preparing public directory for upload...
+[debug] [2018-06-28T16:12:36.078Z] >>> HTTP REQUEST PUT https://deploy.firebase.com/v1/hosting/amentalmodel/uploads/-LG69jU9LUjbgGuNCMIH?fileCount=31&message=  
+  
+ Thu Jun 28 2018 09:12:36 GMT-0700 (PDT)
