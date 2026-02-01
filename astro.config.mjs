@@ -3,6 +3,5 @@ import { defineConfig } from 'astro/config';
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://dzoba.github.io',
-  base: '/amm',
+  site: 'https://amentalmodel.com',
 });

@@ -1,6 +1,5 @@
 ---
 import Base from '../layouts/Base.astro';
-const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
 ---
 
 <Base title="A Mental Model">
@@ -11,7 +10,7 @@ const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
       Nobody knows. Not really. But there's one answer that survives the uncertainty
       &mdash; and it might change how you think about everything.
     </p>
-    <a href={`${base}essay`} class="hero__cta">Read the Essay</a>
+    <a href="/essay" class="hero__cta">Read the Essay</a>
   </section>
 
   <hr />
@@ -38,7 +37,7 @@ const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
         If this resonates with you &mdash; or if you think it's wrong and can say why
         &mdash; I want to hear from you. The search is better together.
       </p>
-      <a href={`${base}essay`} class="hero__cta">Start Reading</a>
+      <a href="/essay" class="hero__cta">Start Reading</a>
     </div>
   </section>
 </Base>
