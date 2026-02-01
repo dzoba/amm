@@ -1,0 +1,335 @@
+/* === Reset & Base === */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --color-bg: #FDFAF6;
+  --color-bg-warm: #F7F0E8;
+  --color-text: #2C2C2C;
+  --color-text-light: #5A5A5A;
+  --color-text-muted: #8A8A8A;
+  --color-accent: #C4704B;
+  --color-accent-light: #D4916F;
+  --color-accent-dark: #A85A3A;
+  --color-border: #E8DDD0;
+  --color-highlight: #FFF8F0;
+
+  --font-body: 'Source Serif 4', 'Georgia', serif;
+  --font-heading: 'Inter', 'Helvetica Neue', sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+
+  --max-width: 680px;
+  --max-width-wide: 900px;
+}
+
+html {
+  font-size: 18px;
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: var(--font-body);
+  color: var(--color-text);
+  background-color: var(--color-bg);
+  line-height: 1.75;
+}
+
+/* === Typography === */
+h1, h2, h3, h4 {
+  font-family: var(--font-heading);
+  font-weight: 600;
+  line-height: 1.3;
+  color: var(--color-text);
+}
+
+h1 {
+  font-size: 2.4rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+h2 {
+  font-size: 1.6rem;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  letter-spacing: -0.01em;
+}
+
+h3 {
+  font-size: 1.2rem;
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+}
+
+p {
+  margin-bottom: 1.25rem;
+}
+
+strong {
+  font-weight: 650;
+  color: var(--color-text);
+}
+
+em {
+  font-style: italic;
+}
+
+a {
+  color: var(--color-accent);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.2s ease;
+}
+
+a:hover {
+  border-bottom-color: var(--color-accent);
+}
+
+hr {
+  border: none;
+  height: 1px;
+  background: var(--color-border);
+  margin: 3rem auto;
+  max-width: 120px;
+}
+
+blockquote {
+  border-left: 3px solid var(--color-accent-light);
+  padding-left: 1.25rem;
+  margin: 1.5rem 0;
+  color: var(--color-text-light);
+  font-style: italic;
+}
+
+/* === Layout === */
+.container {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+.container--wide {
+  max-width: var(--max-width-wide);
+}
+
+/* === Nav === */
+.nav {
+  padding: 1.5rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav__logo {
+  font-family: var(--font-heading);
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--color-text);
+  text-decoration: none;
+  border-bottom: none;
+  letter-spacing: -0.01em;
+}
+
+.nav__logo:hover {
+  color: var(--color-accent);
+  border-bottom: none;
+}
+
+.nav__links {
+  display: flex;
+  gap: 1.5rem;
+  list-style: none;
+}
+
+.nav__links a {
+  font-family: var(--font-heading);
+  font-size: 0.85rem;
+  color: var(--color-text-light);
+  text-decoration: none;
+  border-bottom: none;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+.nav__links a:hover {
+  color: var(--color-accent);
+  border-bottom: none;
+}
+
+/* === Hero === */
+.hero {
+  padding: 6rem 0 4rem;
+  text-align: center;
+}
+
+.hero__subtitle {
+  font-family: var(--font-heading);
+  font-size: 1rem;
+  color: var(--color-text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  margin-bottom: 1.5rem;
+}
+
+.hero h1 {
+  margin-bottom: 1.5rem;
+}
+
+.hero__intro {
+  font-size: 1.15rem;
+  color: var(--color-text-light);
+  max-width: 540px;
+  margin: 0 auto 2.5rem;
+  line-height: 1.8;
+}
+
+.hero__cta {
+  display: inline-block;
+  font-family: var(--font-heading);
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #fff;
+  background-color: var(--color-accent);
+  padding: 0.75rem 2rem;
+  border-radius: 6px;
+  text-decoration: none;
+  border-bottom: none;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+  letter-spacing: 0.02em;
+}
+
+.hero__cta:hover {
+  background-color: var(--color-accent-dark);
+  border-bottom: none;
+  transform: translateY(-1px);
+}
+
+/* === Essay === */
+.essay {
+  padding: 3rem 0 5rem;
+}
+
+.essay__header {
+  text-align: center;
+  padding: 4rem 0 3rem;
+}
+
+.essay__header h1 {
+  margin-bottom: 0.75rem;
+}
+
+.essay__header .essay__date {
+  font-family: var(--font-heading);
+  font-size: 0.85rem;
+  color: var(--color-text-muted);
+}
+
+.essay__body p:first-of-type {
+  font-size: 1.1rem;
+}
+
+.essay__body .thesis {
+  text-align: center;
+  font-size: 1.35rem;
+  font-weight: 600;
+  font-style: italic;
+  color: var(--color-accent-dark);
+  padding: 2rem 1rem;
+  margin: 2rem 0;
+  border-top: 1px solid var(--color-border);
+  border-bottom: 1px solid var(--color-border);
+  line-height: 1.5;
+}
+
+.essay__body .fork-options {
+  background: var(--color-highlight);
+  border-radius: 8px;
+  padding: 1.5rem 1.75rem;
+  margin: 1.5rem 0;
+  border-left: 3px solid var(--color-accent-light);
+  font-weight: 500;
+}
+
+/* === Implication Cards === */
+.implications {
+  margin: 2rem 0;
+}
+
+.implication {
+  margin-bottom: 1.25rem;
+}
+
+.implication strong {
+  color: var(--color-accent-dark);
+}
+
+/* === CTA Section === */
+.cta-section {
+  background: var(--color-bg-warm);
+  border-radius: 12px;
+  padding: 3rem 2rem;
+  text-align: center;
+  margin: 3rem 0;
+}
+
+.cta-section h2 {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.cta-section p {
+  color: var(--color-text-light);
+  max-width: 480px;
+  margin: 0 auto 1.5rem;
+}
+
+.cta-section .hero__cta {
+  margin-top: 0.5rem;
+}
+
+/* === Footer === */
+.footer {
+  padding: 2rem 0;
+  text-align: center;
+  font-family: var(--font-heading);
+  font-size: 0.8rem;
+  color: var(--color-text-muted);
+  border-top: 1px solid var(--color-border);
+}
+
+/* === About === */
+.about {
+  padding: 3rem 0 5rem;
+}
+
+.about h1 {
+  margin-bottom: 1.5rem;
+}
+
+/* === Responsive === */
+@media (max-width: 600px) {
+  html {
+    font-size: 16px;
+  }
+
+  .hero {
+    padding: 4rem 0 3rem;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  h2 {
+    font-size: 1.35rem;
+  }
+
+  .nav__links {
+    gap: 1rem;
+  }
+}
